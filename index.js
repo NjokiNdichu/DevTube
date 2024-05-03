@@ -1,4 +1,4 @@
-const apiKey = 'AIzaSyAiIIn5IDP-rNKjrQHwNcYmBKPuny-M7IE';
+const apiKey = '';
 const maxResults = 20;
 let searchQuery = 'programming tutorial';
 
