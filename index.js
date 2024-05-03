@@ -1,4 +1,4 @@
-const apiKey = 'AIzaSyDL8b8pKCNzqIFkvOyB-YdH2ok7qCM0iL8';
+const apiKey = 'AIzaSyAiIIn5IDP-rNKjrQHwNcYmBKPuny-M7IE';
 const maxResults = 20;
 let searchQuery = 'programming tutorial';
 
@@ -41,7 +41,6 @@ function filterVideos(language) {
         getVideos();
     }
 }
-
 
 // Eventlisteners for filter buttons as well as search input 
 
