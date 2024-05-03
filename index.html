@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DevTube</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/style.css">
+
+  </head>
+  <body>
+
+ <!--Nav Bar Including search bar input-->
+    <div class="container-fluid">
+        <div class="row top-bar">
+            <div class="col-3 side">
+                <i class="fa fa-bars"></i>
+                <img class="logo img-fluid" src="/Plugin/For sure logo.png" alt="logo">
+            </div>
+            <div class="col-6 search-bar">
+                <div class="input-group">
+                    <input type="text" class="form-control search" placeholder="Search tutorial(Programming content only)">
+                    <button class="btn btn-outline-secondary search-btn" type="button">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </div>
+                
+            </div>
+            <div class="col-3 d-flex username">
+                <i class="fa fa-user"></i>
+            </div>
+
+        </div>
+
+         <!--Filter Buttons for varoious programming languages-->
+        <div class="row">
+            <div class="col-2 top-side-bar">
+                <button class="filter">
+                    <i class="fa fa-filter"></i>
+                    <span>Filter options</span>
+                </button>
+            </div>
+            <div class="col-10 main-page">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                 <div class="carousel-item active">
+                  
+                    <div class=" buttons">
+                        <button class="btn rounded-pill" data-language="HTML, CSS, Javascript, Python, Java, Ruby, PHP, Figma, Git, Bootstrap, PostgreSQL,Emacs">All</button>
+                        <button class="btn rounded-pill" data-language="HTML">HTML</button>
+                        <button class="btn rounded-pill" data-language="CSS">CSS</button>
+                        <button class="btn rounded-pill" data-language="Javascript">Javascript</button>
+                        <button class="btn rounded-pill" data-language="Python">Python</button>
+                        <button class="btn rounded-pill" data-language="Java">Java</button>
+                        <button class="btn rounded-pill" data-language="Ruby">Ruby</button>
+                        <button class="btn rounded-pill" data-language="PHP">PHP</button>
+                        <button class="btn rounded-pill" data-language="Figma">Figma</button>
+                        <button class="btn rounded-pill" data-language="Git">Git</button>
+                        <button class="btn rounded-pill" data-language="Bootstrap">Bootstrap</button>
+                        <button class="btn rounded-pill" data-language="PostgreSQL">PostgreSQL</button>
+                        <button class="btn rounded-pill" data-language="Emacs">Emacs</button>  
+                        <button class="btn rounded-pill" data-language="React">React</button>  
+                        <button class="btn rounded-pill" data-language="Node">Node</button>  
+                        <button class="btn rounded-pill" data-language="Tailwind CSS">Tailwind CSS</button>  
+                    </div>  
+                 </div>
+                </div>
+            </div>   
+            
+        </div>
+        
+        <!--Videos Display-->
+        <div class="row">
+            <div class="col-2">
+                  
+            </div>
+            <div class=" col-10 vids">
+                <div class="row row-cols-md-3 row-cols-sm-1 g-3" id="videos">
+                   
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+    <script src="/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

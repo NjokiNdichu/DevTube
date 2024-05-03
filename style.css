@@ -1,0 +1,95 @@
+.logo{
+    height:9vh;
+    margin-left: 2rem;
+}
+
+.top-bar{
+    margin-top: 1rem;
+    align-items: center;
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    
+}
+
+.input-group {
+    display: flex;
+    flex-grow: 1;
+    border: 1px solid #ced4da; 
+    border-radius: 10px; 
+}
+
+.search {
+    
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 5px; 
+}
+
+.input-group button {
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: lightgray; 
+    padding: 5px 10px; 
+}
+
+.microphone-btn {
+    border: 1px solid #D3D3D3; 
+    border-radius: 30px; 
+    margin-left: 2px;
+    background-color: #fff; 
+    padding: 5px 10px; 
+}
+.username{
+    justify-content: end;
+    align-items: center;
+}
+.top-side-bar{
+    margin-top: 2rem;
+}
+.btn{
+    background-color: #D3D3D3;
+    
+}
+.vids{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.side-panel {
+    position: fixed;
+    top: 50%;
+    right: -200px; /* Off the screen initially */
+    transform: translateY(-50%);
+    background-color: #f1f1f1;
+    padding: 10px;
+    transition: right 0.3s ease-in-out;
+}
+
+.carousel {
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  margin-top: 0.5rem;
+  padding: 0%;
+  
+
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+
+.buttons button {
+  margin-right: 10px; 
+}
