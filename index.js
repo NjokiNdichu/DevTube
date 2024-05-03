@@ -10,6 +10,7 @@ function getVideos() {
         .catch(error => console.error('Error fetching videos:', error));
 }
 
+
 // display videos
 function displayVideos(videos) {
     let html = '';
