@@ -1,6 +1,7 @@
-const apiKey = '';
+const apiKey = process.env.CLIENT_KEY;
 const maxResults = 20;
 let searchQuery = 'programming tutorial';
+
 
 // fetch videos from youtube
 function getVideos() {
