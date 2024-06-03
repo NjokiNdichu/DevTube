@@ -1,11 +1,11 @@
-const apiKey = process.env.CLIENT_KEY;
+const apiKey = '';
 const maxResults = 20;
 let searchQuery = 'programming tutorial';
 
 
 // fetch videos from youtube
 function getVideos() {
-    fetch(`https://www.googleapis.com/youtube/v3/search?part=snippet&q=${searchQuery}&maxResults=${maxResults}&key=${apiKey}`)
+    fetch(`https://www.googleapis.com/youtube/v3/search?part=snippet&q=${searchQuery}&maxResults=${maxResults}&key=${process.env.CLIENT_KEY}`)
         .then(response => response.json())
         .then(data => displayVideos(data.items))
         .catch(error => console.error('Error fetching videos:', error));
